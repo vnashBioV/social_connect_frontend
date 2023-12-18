@@ -138,7 +138,7 @@ export default function PinDetail({ user }) {
             />
             <button 
               type='button'
-              className='bg-red-500 text-white rounded-full px-6 py-2 font-semibold text-base outline-none'
+              className='bg-purple-800 text-white rounded-full px-6 py-2 font-semibold text-base outline-none'
               onClick={addComment}
             >
               {addingComment? 'Posting the comment...' : 'Post'}

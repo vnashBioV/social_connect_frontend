@@ -77,7 +77,7 @@ export default function Pin({ pin: {postedBy, image, _id, destination, save}}) {
                   </a>
               </div>
                 {alreadySaved ? (
-                  <button type='button' className='bg-red-500 opacity-70 hover:opacity-100 text-white font-bold px-5 py-1 text-base rounded-3xl hover:shodow-md outlined-none'>
+                  <button type='button' className='bg-purple-800 opacity-70 hover:opacity-100 text-white font-bold px-5 py-1 text-base rounded-3xl hover:shodow-md outlined-none'>
                     {save?.length} Saved
                   </button>
                 ):(
@@ -87,7 +87,7 @@ export default function Pin({ pin: {postedBy, image, _id, destination, save}}) {
                       savedPin(_id);
 
                     }}
-                    type='button' className='bg-red-500 opacity-70 hover:opacity-100 text-white font-bold px-5 py-1 text-base rounded-3xl hover:shodow-md outlined-none'>
+                    type='button' className='bg-purple-800 opacity-70 hover:opacity-100 text-white font-bold px-5 py-1 text-base rounded-3xl hover:shodow-md outlined-none'>
                   Save
                 </button>
                 )}
